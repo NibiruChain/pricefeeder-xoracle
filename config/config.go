@@ -82,10 +82,6 @@ var defaultExchangeSymbolsMap = map[string]map[asset.Pair]types.Symbol{
 	sources.SourceNameChainLink: {
 		"b2btc:btc": "uBTC/BTC",
 	},
-
-	sources.SourceNameAvalon: {
-		"susda:usda": "susda:usda",
-	},
 }
 
 func MustGet() *Config {
