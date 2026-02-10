@@ -160,16 +160,6 @@ var allSources = []NamedSource{
 		},
 	},
 	{
-		Name: SourceNameUniswapV3,
-		F: func(
-			symbols set.Set[types.Symbol],
-			_ json.RawMessage,
-			logger zerolog.Logger,
-		) types.Source {
-			return NewTickSource(symbols, UniswapV3PriceUpdate, logger)
-		},
-	},
-	{
 		Name: SourceNameChainLink,
 		F: func(
 			symbols set.Set[types.Symbol],
