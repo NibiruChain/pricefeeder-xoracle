@@ -18,7 +18,6 @@ The `pricefeeder` is a tool developed for Nibiru's [Oracle Module consensus](htt
 - [Chainlink on B^2 Network](#chainlink-on-b2-network)
 - [Eris Protocol for stNIBI price](#eris-protocol-for-stnibi-price)
   - [Eris Protocol for stNIBI price](#eris-protocol-for-stnibi-price-1)
-  - [Avalon Finance for sUSDa, USDa](#avalon-finance-for-susda-usda)
 - [Glossary](#glossary)
 
 ## Quick Start - Local Development
@@ -187,14 +186,6 @@ ERIS_PROTOCOL_CONTRACT_ADDRESS="nibi1udqqx30cw8nwjxtl4l28ym9hhrp933zlq8dqxfjzcdh
 # Testnet-2
 ERIS_PROTOCOL_CONTRACT_ADDRESS="nibi1keqw4dllsczlldd7pmzp25wyl04fw5anh3wxljhg4fjuqj9xnxuqa82rpg"
 ```
-
-### Avalon Finance for sUSDa, USDa
-
-
-[Avalon Finance](https://avalonfinance.xyz) is a CeDeFi lending project that
-powers both USDa and sUSDa. The redeem rate between USDa and its yield-bearing variant, sUSDa, is retrieved from the API provided by Avalon Labs. 
-
-This data source adds queries for the "susda:usda" and "susda:usd" asset pairs.
 
 ### Chainlink on B^2 Network
 
