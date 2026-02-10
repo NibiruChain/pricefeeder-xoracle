@@ -75,10 +75,6 @@ var defaultExchangeSymbolsMap = map[string]map[asset.Pair]types.Symbol{
 		"ustnibi:unibi": "ustnibi:unibi", // this is the only pair supported by the Eris Protocol smart contract
 	},
 
-	sources.SourceNameUniswapV3: {
-		"usda:usd": "USDa:USDT",
-	},
-
 	sources.SourceNameChainLink: {
 		"b2btc:btc": "uBTC/BTC",
 	},
