@@ -1,8 +1,19 @@
 # NibiruChain/pricefeeder for the Oracle Module
 
-<img src="./repo-banner.png">
 
 The `pricefeeder` is a tool developed for Nibiru's [Oracle Module consensus](https://nibiru.fi/docs/ecosystem/oracle/) that runs a process to pull data from various external sources and then broadcasts transactions to vote on exchange rates.
+
+> [!NOTE]
+> This repository is archived because Nibiru's native `x/oracle` module has
+> been deprecated. The pricefeeder existed to submit oracle vote transactions
+> for that module. After the [Nibiru v2.12 soft-deprecation of the x/oracle
+> module](https://github.com/NibiruChain/nibiru/releases/tag/v2.12.0), oracle
+> voting, slashing, price updates, and active exchange-rate state are disabled or
+> cleared. Operators should not run this service for current Nibiru networks. The
+> repository remains available as historical reference for the legacy
+> oracle design and feeder implementation.
+
+<img src="./repo-banner.png">
 
 - [Quick Start - Local Development](#quick-start---local-development)
   - [Configuration for the `.env`](#configuration-for-the-env)
